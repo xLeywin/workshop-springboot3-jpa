@@ -3,22 +3,15 @@
 
 # Sobre o projeto
 
-https://wmazoni-sds1.netlify.app
-
 Projeto web services com Spring Boot e JPA / Hibernate
 
-A aplicação consiste em uma pesquisa de preferência de games, onde os dados são coletados no app mobile, e depois são listados no app web, que também apresenta um dashboard com gráficos baseados nestes dados.
+Este projeto consiste no desenvolvimento de uma API REST com o objetivo de implementar um sistema completo de gerenciamento de pedidos. A aplicação segue uma arquitetura em camadas (resource, service e repository), aplicando boas práticas de organização, injeção de dependência e tratamento de exceções.
 
-## Layout mobile
-![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
+## Modelo de Domínio
+![Modelo de Domínio](https://github.com/xLeywin/assets/blob/main/workshop-springboot4-jpa/domain-model.png)
 
-## Layout web
-![Web 1](link)
-
-![Web 2](link)
-
-## Modelo conceitual
-![Modelo Conceitual](link)
+## Instância de Domínio
+![Instância de Domínio](https://github.com/xLeywin/assets/blob/main/workshop-springboot4-jpa/instance-domain.png)
 
 # Tecnologias utilizadas
 ## Back end
@@ -26,52 +19,16 @@ A aplicação consiste em uma pesquisa de preferência de games, onde os dados s
 - Spring Boot
 - JPA / Hibernate
 - Maven
-## Front end
-- HTML / CSS / JS / TypeScript
-- ReactJS
-- React Native
-- Apex Charts
-- Expo
 ## Implantação em produção
-- Back end: Vercel
-- Front end web: 
-- Banco de dados: Postgresql
+- Banco de dados: PostgreSQL
 
-# Como executar o projeto
+# Ferramentas
+- Postman
+- pgAdmin
 
 ## Back end
 Pré-requisitos: Java 25
 
-```bash
-# clonar repositório
-git clone https://github.com/xLeywin/workshop-springboot4-jpa
-
-# entrar na pasta do projeto back end
-cd backend
-
-# executar o projeto
-./mvnw spring-boot:run
-```
-
-## Front end web
-Pré-requisitos: npm / yarn
-
-```bash
-# clonar repositório
-git clone https://github.com/xLeywin/workshop-springboot4-jpa
-
-# entrar na pasta do projeto front end web
-cd front-web
-
-# instalar dependências
-yarn install
-
-# executar o projeto
-yarn start
-```
-
 # Autor
-
 Wendell Ylan Viani
-
 https://www.linkedin.com/in/wendellviani

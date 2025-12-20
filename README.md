@@ -44,7 +44,7 @@ Pré-requisitos: Java 25
 
 ```bash
 # clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
+git clone https://github.com/xLeywin/workshop-springboot4-jpa
 
 # entrar na pasta do projeto back end
 cd backend
@@ -58,7 +58,7 @@ Pré-requisitos: npm / yarn
 
 ```bash
 # clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
+git clone https://github.com/xLeywin/workshop-springboot4-jpa
 
 # entrar na pasta do projeto front end web
 cd front-web

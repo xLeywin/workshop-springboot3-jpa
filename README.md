@@ -1,4 +1,4 @@
-# Workshop SpringBoot4 + JPA
+# Workshop Spring Boot 4 + JPA
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/xLeywin/workshop-springboot4-jpa/blob/main/LICENSE) 
 
 # Sobre o projeto
